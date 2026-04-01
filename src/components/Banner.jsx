@@ -1,5 +1,4 @@
 import BannerImage from "../assets/banner.png";
-import PlayIcon from "../assets/play.png";
 import Active from "../assets/active.png";
 
 const Banner = () => {
@@ -28,7 +27,6 @@ const Banner = () => {
             </button>
 
             <button className="btn rounded-full border border-[#9514FA] text-[#9514FA] px-6 hover:scale-105 transition duration-300">
-              <img src={PlayIcon} alt="" />
               Watch Demo
             </button>
           </div>
