@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import SpCard from "../assets/products/SpCard.png";
 import Logo from "../assets/DigiTools.png";
@@ -19,10 +18,11 @@ const Navbar = ({ cart }) => {
   const menuItems = ["Features", "Pricing", "Products", "Testimonials", "FAQ"];
 
   return (
-    <header className={`fixed w-full z-50 ${scrolled ? "shadow-lg bg-white" : ""}`}>
+    <header
+      className={`fixed w-full z-50 ${scrolled ? "shadow-lg bg-white" : ""}`}
+    >
       <nav>
         <div className="navbar max-w-7xl mx-auto">
-
           {/* Left */}
           <div className="navbar-start">
             {/* Mobile button */}
@@ -55,16 +55,15 @@ const Navbar = ({ cart }) => {
               ))}
             </ul>
           </div>
-
           {/* Right */}
           <div className="navbar-end flex items-center">
             <div className="flex items-center mr-4 cursor-pointer relative">
               <img src={SpCard} className="w-6 mr-1" />
-              <span className=" w-5 h-5 bg-yellow-200  font-bold rounded-full  absolute bottom-2 left-4 justify-center flex items-center ">{cart.length}</span>
+              <span className=" w-5 h-5 bg-yellow-200 font-bold rounded-full  absolute bottom-2 left-4 justify-center flex items-center ">
+                {cart.length}
+              </span>
             </div>
-
             <h3 className="mr-4 cursor-pointer">Login</h3>
-
             <button className="btn rounded-full bg-linear-to-r from-indigo-500 to-purple-600 text-white">
               Get Started
             </button>

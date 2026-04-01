@@ -2,7 +2,7 @@ const CTA = () => {
   return (
     <section className="py-30 px-5 md:px-50 bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
       <div className=" max-w-7xl mx-auto  text-white text-center rounded-2xl py-10 px-">
-        <h2 className="text-2xl md:text-3xl font-bold mb-3">
+        <h2 className="text-2xl md:text-3xl font-bold mb-3 font-manrope">
           Ready To Transform Your Workflow?
         </h2>
 
