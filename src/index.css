@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme{
+   --font-manrope: "Manrope", sans-serif;
+};
+@layer components{
+   .primary-color{
+      @apply bg-[#101727];
+   };
+   .Social-link{
+      @apply w-8 h-8 rounded-full bg-white flex items-center justify-center hover:bg-[#8483b0] transition duration-300;
+   }
+   .text-hover{
+      @apply hover:text-[#ffffff] transition duration-300;
+   }
+   
+}
+ 

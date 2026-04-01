@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic resume building tools for beginners.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FaCrown"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Pack",
+    "description": "Complete package to boost your career profile.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Resume + Cover Letter", "LinkedIn optimization", "Portfolio tips"],
+    "icon": "FaRocket"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios easily.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Drag & drop builder", "Responsive design"],
+    "icon": "FaBriefcase"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Tool",
+    "description": "Practice interviews with real-world questions.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "AI feedback", "Common Q&A"],
+    "icon": "FaComments"
+  },
+  {
+    "id": 6,
+    "name": "Job Tracker Pro",
+    "description": "Track all your job applications in one place.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Application tracking", "Status updates", "Reminders"],
+    "icon": "FaTasks"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "Tools for freelancers to manage clients and work.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Invoice generator", "Client management", "Project tracking"],
+    "icon": "FaUserTie"
+  },
+  {
+    "id": 8,
+    "name": "Design Resource Pack",
+    "description": "Premium UI/UX design resources and assets.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["UI kits", "Icons pack", "Figma templates"],
+    "icon": "FaPalette"
+  },
+  {
+    "id": 9,
+    "name": "All-in-One Career Suite",
+    "description": "Everything you need for career growth.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["All tools access", "Priority support", "Cloud sync"],
+    "icon": "FaStar"
+  }
+]
