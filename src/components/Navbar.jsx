@@ -70,8 +70,6 @@ const Navbar = ({ cart }) => {
             </button>
           </div>
         </div>
-
-        {/* Mobile Menu */}
         {isOpen && (
           <div className="lg:hidden bg-white shadow-md p-4">
             <ul className="space-y-3">
