@@ -58,9 +58,9 @@ const Navbar = ({ cart }) => {
 
           {/* Right */}
           <div className="navbar-end flex items-center">
-            <div className="flex items-center mr-4 cursor-pointer">
+            <div className="flex items-center mr-4 cursor-pointer relative">
               <img src={SpCard} className="w-6 mr-1" />
-              <span>{cart.length}</span>
+              <span className=" w-5 h-5 bg-yellow-200  font-bold rounded-full  absolute bottom-2 left-4 justify-center flex items-center ">{cart.length}</span>
             </div>
 
             <h3 className="mr-4 cursor-pointer">Login</h3>
