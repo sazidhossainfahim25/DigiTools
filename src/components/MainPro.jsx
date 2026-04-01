@@ -109,7 +109,7 @@ export default function ProductCartSection({ cart, setCart }) {
               No products available
             </p>
           ) : (
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 w-full max-w-6xl px-6 mx-auto">
+            <div className="grid lg:grid-cols-3 justify-center items-center grid-cols-1 gap-6 w-full max-w-6xl px-6 mx-auto">
               {products.map((item) => {
                 const isAdded = cart.some((p) => p.id === item.id);
 
