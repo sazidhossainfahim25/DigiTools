@@ -7,7 +7,7 @@ import Stats from "./components/Stats";
 import Cta from "./components/Cta";
 import Card from "./components/Card";
 import PricingCard from "./components/PricingCard";
-import ProductCard from "./components/ProductCard";
+import ProductCards from "./components/ProductCard";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -16,7 +16,7 @@ function App() {
       <Navbar cart={cart}/>
       <Banner/>
       <Stats/>
-      <ProductCard cart={cart} setCart={setCart}/>
+      <ProductCards cart={cart} setCart={setCart}/>
       <Card/>
       <PricingCard/>
       <Cta/>
