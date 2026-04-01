@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="detail-area flex justify-between lg:space-x-20">
             <div>
-              <h3 className="text-white font-medium mb-3">Product</h3>
+              <h3 className="text-white font-medium mb-3 font-manrope">Product</h3>
               <ul className="space-y-2 text-sm">
                 <li className="text-hover">Features</li>
                 <li className="text-hover">Pricing</li>
