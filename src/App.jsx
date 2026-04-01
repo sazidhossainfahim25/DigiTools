@@ -7,7 +7,7 @@ import Stats from "./components/Stats";
 import Cta from "./components/Cta";
 import Card from "./components/Card";
 import PricingCard from "./components/PricingCard";
-import ProductCards from "./components/ProductCard";
+import ProductCards from "./components/ProductCards.jsx";
 
 function App() {
   const [cart, setCart] = useState([]);
